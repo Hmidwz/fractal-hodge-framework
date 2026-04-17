@@ -1,20 +1,43 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# الإطار الموحد لهودج-نافييه الفركتلي
+## Fractal Hodge-Navier Unified Framework
 
-# Run and deploy your AI Studio app
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Python](https://img.shields.io/badge/python-3.8+-green)
+![Flask](https://img.shields.io/badge/flask-2.3.0-red)
+![License](https://img.shields.io/badge/license-MIT-yellow)
 
-This contains everything you need to run your app locally.
+### 📊 وصف المشروع
+واجهة ويب متكاملة للإطار الموحد لهودج-نافييه الفركتلي، تجمع بين:
+- التحليل الطبي للصور
+- تحليل المواد المسامية (تطبيقات النفط والهندسة)
+- تحليل الشبكات المعقدة
+- التحليل المالي للأسواق
+- تحليل إشارات EEG الدماغية
 
-View your app in AI Studio: https://ai.studio/apps/fa4fc36f-6b13-4ba5-840e-19097f9b708d
+### 🚀 المميزات
+- ✅ تحليل البعد الكسري (Fractal Dimension)
+- ✅ حساب أعداد هودج (b₀, b₁)
+- ✅ معامل هيرست للسلاسل الزمنية
+- ✅ تحليل طيفي متقدم
+- ✅ واجهة عربية كاملة مع RTL
+- ✅ رسوم بيانية تفاعلية مع Plotly
 
-## Run Locally
+### 📱 التطبيقات
+1. **🏥 التحليل الطبي** - تشخيص الصور الطبية
+2. **🪨 المواد المسامية** - محاكاة النفاذية والمسامية
+3. **🌐 الشبكات المعقدة** - تحليل الشبكات الاجتماعية
+4. **💰 الأسواق المالية** - تحليل المخاطر والتقلبات
+5. **🧠 الإشارات الدماغية** - كشف النشاط الصرعي
 
-**Prerequisites:**  Node.js
+### ⚙️ التثبيت والتشغيل
 
+```bash
+# استنساخ المشروع
+git clone https://github.com/[username]/fractal-hodge-framework.git
+cd fractal-hodge-framework
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# تثبيت المكتبات
+pip install -r requirements.txt
+
+# تشغيل التطبيق
+python app.py
